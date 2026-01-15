@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="06e84f80-4326-43ce-be9e-e62069b8429d">
+  <name>Расширение1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширение1</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="685da919-2ef8-4f13-85ca-7202bf95bed0"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="891227ab-c9fe-425e-8da4-734fc10bf263"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d107c7f7-afc1-4c13-8f42-0270e6c4306e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c38e6f53-f6cc-4882-8b8a-eeaa05489839"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="57f8bb2f-00ee-4103-800c-e083b8f92f12"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4450cb6b-0b8f-43c8-836c-07ce914636cd"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a15b898f-721d-4bf7-a23c-cf44079cfda2"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш1_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="2d2312bf-40cb-4acc-927a-c66a9dd83187" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Расш1_Подсистема1</subsystems>
+  <documents>Document.Расш1_Документ1</documents>
+</mdclass:Configuration>
